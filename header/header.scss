@@ -1,0 +1,10 @@
+@import "./../mixins/mixin.scss";
+header{
+    width: 100%;
+    height: 70px;
+    background: red;
+    @include flex();
+    @import "./nav/nav.scss";
+   
+
+}
